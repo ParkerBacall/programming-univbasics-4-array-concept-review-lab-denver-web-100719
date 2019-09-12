@@ -20,9 +20,10 @@ end
 
 def find_min_value(array)
   lowest = array[0]
+  newlowest = 0
   array.length.times { |index|
     if array[index] < lowest
-        array[index] = lowest
+        array[index] = newlowest
     end
   }
   return lowest
