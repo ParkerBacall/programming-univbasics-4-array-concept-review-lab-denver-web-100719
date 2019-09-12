@@ -8,7 +8,7 @@ end
 
 def find_max_value(array)
   array.length.times { |index|
-    if array[index] === value_to_find
+    if array[index] > array[index-1]
       return index
     end
 end
