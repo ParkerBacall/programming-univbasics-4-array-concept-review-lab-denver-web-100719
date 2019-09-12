@@ -17,7 +17,7 @@ def find_max_value(array)
         array[index] = highest
     end
   }
-  return 1
+  return highest
 end
 
 def find_min_value(array)
